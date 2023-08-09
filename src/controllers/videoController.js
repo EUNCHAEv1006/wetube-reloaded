@@ -1,7 +1,5 @@
-export const trending = (req, res) => 
-    res.send(
-        "<!DOCTYPE html><html lang='ko'><head><title>Wetube</title></head><body><h1>Home</h1><footer>&copy; 2023 Wetube -  All rights reserved</footer></body></html>"
-    );
+export const trending = (req, res) => res.render("home"); /* res.reder로 home.pug를 렌더링함 */
+        
 export const see = (req, res) => {
     return res.send(
         `<!DOCTYPE html><html lang='ko'><head><title>Wetube</title></head><body><h1>Watch video #${req.params.id}</h1><footer>&copy; 2023 Wetube -  All rights reserved</footer></body></html>`
