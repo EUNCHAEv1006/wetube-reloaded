@@ -1,4 +1,4 @@
-export const trending = (req, res) => res.render("home"); /* res.reder로 home.pug를 렌더링함 */
+export const trending = (req, res) => res.render("home", { pageTitle: "Home"}); /* res.reder로 home.pug를 렌더링함 */
         
 export const see = (req, res) => res.render("watch");
 
