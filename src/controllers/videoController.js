@@ -44,3 +44,12 @@ let videos = [
     videos[id - 1].title = title;
     return res.redirect(`/videos/${id}`); /* redirect: 브라우저가 자동으로 이동하도록 해줌 */
   };
+
+  export const getUpload = (req, res) => {
+    return res.render("upload", {pageTitle: "Upload Video"});
+  };
+
+  export const postUpload = (req, res) => {
+    // here we will add a video to the videos array.
+    return res.redirect("/");
+  };
