@@ -1,12 +1,22 @@
 import Video from "../models/Video";
 
-export const home = (req, res) => {
-  console.log("Start");
-  Video.find({}, (error, videos) => {
-    console.log("Finished");
-    return res.render("home", { pageTitle: "Home", videos });
-  });
-  console.log("I finish first");
+/* callback 방법
+
+Video.find({}, (error, videos) => {
+  if(error){
+    return res.render("server-error");
+  }
+  return res.render("hone", { pageTitle: "Home", videos });
+}); 
+
+*/
+
+export const home = async (req, res) => {
+  /* 해당 함수가 asynchronous 일 때만 사용가능해서 async 사용해줌 */
+  const videos = await Video.find(
+    {}
+  ); /* await는 database를 기다려줌 , 함수 안에서만 사용 가능 */
+  return res.render("home", { pageTitle: "Home", videos });
 };
 export const watch = (req, res) => {
   const { id } = req.params;
