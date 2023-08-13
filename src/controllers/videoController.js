@@ -1,8 +1,12 @@
 import Video from "../models/Video";
 
 export const home = (req, res) => {
-  Video.find({}, (error, videos) => {});
-  return res.render("home", { pageTitle: "Home" });
+  console.log("Start");
+  Video.find({}, (error, videos) => {
+    console.log("Finished");
+    return res.render("home", { pageTitle: "Home", videos });
+  });
+  console.log("I finish first");
 };
 export const watch = (req, res) => {
   const { id } = req.params;
@@ -24,6 +28,5 @@ export const getUpload = (req, res) => {
 
 export const postUpload = (req, res) => {
   const { title } = req.body;
-
   return res.redirect("/");
 };
