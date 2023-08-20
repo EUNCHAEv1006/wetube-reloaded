@@ -28,6 +28,6 @@ https://nomadcoders.co/wetube
 
 # 🔗 링크
 
-여기 링크 드감
+https://eunchaev1006.github.io/wetube-reloaded/
 
 # 👀 미리 보기
