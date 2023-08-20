@@ -26,8 +26,6 @@ https://nomadcoders.co/wetube
   - Edit
   - Delete
 
-# 🔗 링크
-
-https://eunchaev1006.github.io/wetube-reloaded/
-
 # 👀 미리 보기
+
+![Wetube_rec](https://github.com/EUNCHAEv1006/wetube-reloaded/assets/129070298/9b7b1fc8-54fe-4cc6-9aa0-015687aafcfb
