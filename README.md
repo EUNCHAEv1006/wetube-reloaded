@@ -28,4 +28,4 @@ https://nomadcoders.co/wetube
 
 # 👀 미리 보기
 
-![Wetube_rec](https://github.com/EUNCHAEv1006/wetube-reloaded/assets/129070298/9b7b1fc8-54fe-4cc6-9aa0-015687aafcfb
+![Wetube_rec](https://github.com/EUNCHAEv1006/wetube-reloaded/assets/129070298/9b7b1fc8-54fe-4cc6-9aa0-015687aafcfb)
