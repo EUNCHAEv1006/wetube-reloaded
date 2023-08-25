@@ -1,6 +1,6 @@
 # 🔆 유튜브 클론코딩
 
-> Upgrade the overall JS technology and developed a full stack that rotates the entire cycle, including the front end + back end.
+> Upgrade the overall JS technology and developed a full stack that rotates the entire cycle, including the front end + back end
 
 # 🖥️ 참고 강의
 
