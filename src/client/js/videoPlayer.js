@@ -101,6 +101,7 @@ const handleMouseLeave = () => {
 };
 
 const handleKeydown = (event) => {
+  /* 스페이스바로 재생/일시정지 제어 */
   if (event.code === "Space") {
     handlePlayClick();
     event.preventDefault();
@@ -108,10 +109,9 @@ const handleKeydown = (event) => {
 };
 
 const handleVideoClickPlay = () => {
+  /* 클릭으로 재생/일시정지 제어 */
   handlePlayClick();
 };
-
-video.addEventListener("click", handleVideoClickPlay);
 
 document.addEventListener("keydown", handleKeydown);
 
@@ -124,3 +124,4 @@ videoContainer.addEventListener("mousemove", handleMouseMove);
 videoContainer.addEventListener("mouseleave", handleMouseLeave);
 timeline.addEventListener("input", handleTimelineChange);
 fullScreenBtn.addEventListener("click", handleFullscreen);
+video.addEventListener("click", handleVideoClickPlay);
