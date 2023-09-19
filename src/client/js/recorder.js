@@ -70,7 +70,7 @@ const handleDownload = async () => {
 };
 
 const handleStart = () => {
-  actionBtn.innerText = "Recording(5s)";
+  actionBtn.innerText = "Recording for 5s";
   actionBtn.disabled = true;
   actionBtn.removeEventListener("click", handleStart);
   recorder = new MediaRecorder(stream, { mimeType: "video/webm" });
