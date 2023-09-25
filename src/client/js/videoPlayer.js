@@ -102,7 +102,7 @@ const handleMouseLeave = () => {
 
 const handleKeydown = (event) => {
   /* 스페이스바로 재생/일시정지 제어 */
-  if (event.code === "Space") {
+  if (event.code === "Space" && event.target.id !== "textarea") {
     handlePlayClick();
     event.preventDefault();
   }
