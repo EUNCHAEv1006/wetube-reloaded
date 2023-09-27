@@ -8,7 +8,7 @@ https://nomadcoders.co/wetube
 
 # 🕰️ 수강 기간
 
-2023.08.05 ~ 09.27
+2023.08.05 ~ 2023.09.27
 
 # 💪 구현 기능
 
@@ -18,7 +18,10 @@ https://nomadcoders.co/wetube
   - Login
   - Logout
   - Join
-  - SocialLogin(GitHub)
+  - Github Login
+  - User Authentication
+  - Protected Pages
+  - User Profile
 - Video
   - Upload
   - Title
@@ -26,8 +29,11 @@ https://nomadcoders.co/wetube
   - Hashtag
   - Edit
   - Delete
-  - Comment
+  - AJAX Comments
+  - View Count
+  - Recording
+  - Video Player
 
 # 👀 미리 보기
 
-![Wetube](https://github.com/EUNCHAEv1006/wetube-reloaded/assets/129070298/eee4c51f-877c-4a31-8581-d411214f71f8)
+![Wetube](https://github.com/EUNCHAEv1006/wetube-reloaded/assets/129070298/4ab0964b-6833-4d59-bdf1-9657ceb2d87e)
